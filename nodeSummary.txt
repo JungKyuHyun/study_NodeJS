@@ -1,4 +1,10 @@
-현재 실행한 파일의 이름 : __filename
-현재 실행한 파일의 패스 : __dirname
+1. 현재 실행한 파일의 이름 : __filename
+2. 현재 실행한 파일의 패스 : __dirname
+3. 객체 안에 들어 있는 속성 확인
+ex)	var Person = {name:"소녀시대", age:20};
+	console.dir(Person);
+4. OS 환경변수 관련
+console.dir(process.env);
+console.log("OS 환경 변수의 값 : " + process.env["OS"]);
 
 
