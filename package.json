@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JungKyuHyun/study_NodeJS#readme",
   "dependencies": {
+    "http": "0.0.0",
     "nconf": "^0.10.0"
   }
 }
