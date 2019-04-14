@@ -72,7 +72,7 @@ router.route("/process/photo").post(upload.array('photo', 1), function (req, res
     if (Array.isArray(files)) {
         for (var i = 0; i < files.length; i++) {
             originalname = files[i].originalname;
-            filename = files[i].mimetype;
+            filename = files[i].filename;
             mimetype = files[i].mimetype;
             size = files[i].size;
         }
